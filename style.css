@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+    text-align: center;
+    color: azure;
+}
+
+h1 {
+    font-family: fantasy;
+    color: beige;
+    text-shadow: 5px
+}
+
+div {
+    background-color: grey;
+    animation: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 100px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 5px 5px 40px #5179fc;
+    }
+
+    to {
+        box-shadow: 5px 5px 40px #bb8aff;
+    }
+}
+img{
+    float: left;
+}
+b{
+    font-size: 50px;
+    font-family: cursive;
+}
